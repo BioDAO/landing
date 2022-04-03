@@ -10,12 +10,18 @@ export default function ResponsiveNav() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-80">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 flex mr-20px">
               <img
                   className="h-8 w-8"
                   src="https://file.heyrajan.com/biodao.svg"
                   alt="Workflow"
                 />
+                <a
+                    href="#"
+                    className="text-black px-3 py-2 rounded-md text-md font-medium"
+                  >
+                    BioDAO
+                  </a>
               </div>
               <div className="hidden md:block">
                 <div className="m-10 flex items-baseline space-x-4">
@@ -23,7 +29,7 @@ export default function ResponsiveNav() {
                     href="#"
                     className="text-black hover:bg-[#96D7C6] text-black px-3 py-2 rounded-md text-md font-medium"
                   >
-                    Dashboard
+                    About
                   </a>
 
                   <a
@@ -32,26 +38,18 @@ export default function ResponsiveNav() {
                   >
                     Team
                   </a>
-
                   <a
                     href="#"
                     className="text-black hover:bg-[#96D7C6] hover:text-black px-3 py-2 rounded-md text-md font-medium"
                   >
-                    Projects
+                    Discord
                   </a>
 
                   <a
                     href="#"
                     className="text-black hover:bg-[#96D7C6] hover:text-black px-3 py-2 rounded-md text-md font-medium"
                   >
-                    Calendar
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#96D7C6] hover:text-black px-3 py-2 rounded-md text-md font-medium"
-                  >
-                    Reports
+                    Get BIO$
                   </a>
                 </div>
               </div>
