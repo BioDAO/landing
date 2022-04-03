@@ -60,7 +60,7 @@ export default function Main() {
                           />
                         </div>
                       </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                   <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
