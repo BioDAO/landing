@@ -7,10 +7,10 @@ export default function ResponsiveNav() {
   return (
     <div>
       <nav className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-80">
+        <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-80">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 flex mr-20px">
+              <div className="flex-shrink-0 flex pr-[100px]">
               <img
                   className="h-8 w-8"
                   src="https://file.heyrajan.com/biodao.svg"
