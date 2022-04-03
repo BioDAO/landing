@@ -1,10 +1,14 @@
 import type { NextPage } from 'next';
-import Navbar  from "../components/Navbar";
+import Head from "next/head";
+import ResponsiveNav from "../components/ResponsiveNav"
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <Navbar />
+    <div>
+      <Head>  
+          <title>BioDAO - The global biotech ecosystem enabled by Web3.</title>
+      </Head>
+      <ResponsiveNav/>
+    </div>
   );
 }
-
-export default Home
