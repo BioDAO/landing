@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from "next/head";
 import ResponsiveNav from "../components/ResponsiveNav"
+import Main from '../components/Main'
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
         <meta property="og:title" content="BioDAO - The global biotech ecosystem enabled by Web3" />
           
       </Head>
-      <ResponsiveNav/>
+      <Main/>
+
+      
     </div>
   );
 }

@@ -7,10 +7,9 @@ export default function ResponsiveNav() {
   return (
     <div>
       <nav className="bg-white">
-        <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-80 xl:px-100">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <div className="flex-shrink-0 flex pr-[100px]">
+          <div className="flex-shrink-0 flex">
               <img
                   className="h-8 w-8"
                   src="https://file.heyrajan.com/biodao.svg"
@@ -18,11 +17,12 @@ export default function ResponsiveNav() {
                 />
                 <a
                     href="#"
-                    className="text-black px-3 py-2 rounded-md text-md font-medium"
+                    className="text-black px-4 mb-0.5 py-2 rounded-md text-md font-medium"
                   >
                     BioDAO
                   </a>
               </div>
+            <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="m-10 flex items-baseline space-x-4">
                   <a
@@ -49,7 +49,7 @@ export default function ResponsiveNav() {
                     href="#"
                     className="text-black hover:bg-[#96D7C6] hover:text-black px-3 py-2 rounded-md text-md font-medium"
                   >
-                    Get BIO$
+                    Get $BIO
                   </a>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function ResponsiveNav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gray-300 inline-flex items-center justify-center p-2 rounded-md text-gray-100 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
